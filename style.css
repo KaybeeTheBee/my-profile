@@ -1,0 +1,130 @@
+body {
+	background-color: gray;
+	color: #1B1A17  ;
+	font-size: 20px;
+	font-family: 'Lora', serif;
+	font-weight: 700;
+
+}
+
+h1{
+	color: blue ;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900; 
+	text-align: center;
+
+	
+}
+h2, h3, h4, h5{
+	font-size: 40px;
+	color: darkblue;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+a {
+	color: brown;
+	font-size: 30px;
+}
+
+img{
+	width: 200px;
+}
+div{
+	
+	border: 2px solid black;
+}
+
+.img-circle {
+	border-radius: 50%;
+
+}
+
+
+
+.div-align{
+	margin: 50px;
+	padding: 50px;
+	background-color: goldenrod;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px;
+	text-align: center;
+}
+
+.img-center{
+	
+}
+
+.hoverr:hover{
+	color: red;
+	opacity: 1;
+}
+
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+
+#lofi:hover  img.default{
+	display: none;
+
+}
+#lofi:hover img.hover-img{
+	display: inherit;
+	transition: .5 ease;
+}
+#lofi img.default{
+	opacity: 1;
+}
+#lofi img.hover-img{
+	display: none;
+	width: 200px;
+    height: 200px;
+}
+#dtf:hover  img.default{
+	display: none;
+
+}
+#dtf:hover img.hover-img{
+	display: inherit;
+	transition: .5 ease;
+}
+#dtf img.default{
+	opacity: 1;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#dtf img.hover-img{
+	display: none;
+	width: 200px;
+    height: 200px;
+    	margin-left: 100px;
+	margin-right: 100px;
+}
+#gd:hover  img.default{
+	display: none;
+
+}
+#gd:hover img.hover-img{
+	display: inherit;
+	transition: .5s ease;
+}
+#gd img.default{
+	opacity: 1;
+}
+#gd img.hover-img{
+	display: none;
+	width: 200px;
+    height: 200px;
+}
+a:hover{
+	color: red;
+}
